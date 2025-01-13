@@ -51,8 +51,8 @@
 
 ## Setup Dev Environment
 
-    - mac setup
-    - windows setup
+    - mac setup[https://www.robinwieruch.de/mac-setup-web-development/]
+    - windows setup[https://dev.to/2kabhishek/ultimate-windows-dev-environment-for-2024-le9]
 
     - essentials
       nvm, visual studio code, chrome
