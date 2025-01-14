@@ -1,0 +1,95 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #007bff, #0056b3);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* Main Content */
+#main-content {
+  width: 100%;
+  max-width: 600px;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Countdown Timer */
+#countdown {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.time-box {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 20%;
+}
+
+.time-value {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.time-label {
+  font-size: 0.9rem;
+}
+
+/* CTA Button */
+.cta-button {
+  background: #ff9800;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #e68900;
+}
+
+/* EXTRA CREDIT : Responsive Design */
+/* @media (max-width: 768px) {
+  #countdown {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .time-box {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+} */
