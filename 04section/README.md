@@ -176,3 +176,13 @@ p::first-letter {
 - CSS properties are used to style HTML elements.
 - Each property has a name and a value.
 - The value of a property can be a keyword, a number, a color, or a string.
+
+### Color Property
+
+- The color property sets the color of the text.
+- The value can be a color name, a hex code, an RGB value, or an HSL value.
+
+### Sizing ( Height and Width) Property
+
+- The height and width properties set the height and width of an element.
+- The value can be a length, a percentage, or auto.
