@@ -1,0 +1,94 @@
+<!-- media query exercise -->
+
+<!-- what is rem? -->
+<!-- https://www.sitepoint.com/understanding-and-using-rem-units-in-css/ -->
+
+<!-- what is em? -->
+<!-- https://www.sitepoint.com/understanding-and-using-rem-units-in-css/ -->
+
+<!-- what is viewport? -->
+<!-- https://www.w3schools.com/css/css_rwd_viewport.asp -->
+
+<!-- what is media query? -->
+<!-- https://www.w3schools.com/css/css_rwd_mediaqueries.asp -->
+
+<!-- what is min-width? -->
+<!-- https://www.w3schools.com/cssref/pr_dim_min-width.asp -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Query</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+      }
+
+      #main-content {
+        padding: 1rem;
+        text-align: center;
+      }
+
+      .description {
+        font-size: 1.5rem;
+      }
+
+      @media (min-width: 768px) {
+        .description {
+          font-size: 2rem;
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .description {
+          font-size: 2.5rem;
+        }
+      }
+
+      @media (min-width: 1200px) {
+        .description {
+          font-size: 3rem;
+        }
+      }
+
+      @media (min-width: 1400px) {
+        .description {
+          font-size: 3.5rem;
+        }
+      }
+
+      @media (min-width: 1600px) {
+        .description {
+          font-size: 4rem;
+        }
+      }
+
+      @media (min-width: 1800px) {
+        .description {
+          font-size: 4.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Media Query</h1>
+    </header>
+    <section id="main-content">
+      <p class="description">
+        Resize the browser window to see the effect of the media query.
+      </p>
+    </section>
+  </body>
+</html>

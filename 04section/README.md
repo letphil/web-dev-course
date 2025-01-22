@@ -186,3 +186,9 @@ p::first-letter {
 
 - The height and width properties set the height and width of an element.
 - The value can be a length, a percentage, or auto.
+
+### Margin and Padding Properties
+
+- The margin property sets the margin around an element.
+- The padding property sets the padding inside an element.
+- The value can be a length, a percentage, or auto.

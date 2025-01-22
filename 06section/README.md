@@ -269,6 +269,7 @@ example of a media query with multiple conditions:
 example of a parallax effect:
 
 ```html
+<head>
 <style>
 body, html {
   height: 100%;
