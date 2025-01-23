@@ -16,4 +16,4 @@
 
 ### Bootstrap and Responsive Design[07section](./07section/README.md)
 
-### JavaScript Basics Concepts[08section](./08section/README.md)
+### Javascript Basics Concepts[08section](./08section/README.md)

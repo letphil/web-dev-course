@@ -1,0 +1,48 @@
+<!-- Project 2: Digital Clock -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Digital Clock</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+
+      .clock {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Digital Clock</h1>
+      <div class="clock">
+        <span id="hours">00</span>: <span id="minutes">00</span>:
+        <span id="seconds">00</span>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

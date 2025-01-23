@@ -76,7 +76,7 @@ Some popular websites for free vector icons include:
 - [SVG Icons](https://svgicons.net/)
 - [SVG Backgrounds](https://www.svgbackgrounds.com/)
 
-To use vector icons on your website, you can download the icons in SVG format and include them in your HTML document. You can also use icon libraries like Font Awesome or Material Icons by including their CSS or JavaScript files in your HTML document.
+To use vector icons on your website, you can download the icons in SVG format and include them in your HTML document. You can also use icon libraries like Font Awesome or Material Icons by including their CSS or Javascript files in your HTML document.
 
 For example, to use Font Awesome icons on your website, you would include the following link tag in the `<head>` section of your HTML document:
 

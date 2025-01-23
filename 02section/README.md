@@ -20,7 +20,7 @@
 
 #### Related technologies
 
-    HTML is often used with other technologies, such as Cascading Style Sheets (CSS) and JavaScript. CSS is used to style HTML elements, while JavaScript adds interactive features.
+    HTML is often used with other technologies, such as Cascading Style Sheets (CSS) and Javascript. CSS is used to style HTML elements, while Javascript adds interactive features.
 
 #### History
 
@@ -61,7 +61,7 @@
 
     - <meta charset="UTF-8">: Declares the character encoding for the document.
     - <meta name="description" content="Free Web tutorials">: Provides a description of the page. Search engines can pick up this description to show with the results of searches.
-    - <meta name="keywords" content="HTML, CSS, JavaScript">: Provides keywords that describe the page. Search engines can use these keywords to index the page.
+    - <meta name="keywords" content="HTML, CSS, Javascript">: Provides keywords that describe the page. Search engines can use these keywords to index the page.
     - <meta name="author" content="John Doe">: Provides the name of the author of the page.
     - <meta http-equiv="refresh" content="30">: Redirects the browser to another URL after 30 seconds.
 
@@ -92,7 +92,7 @@
 
 ### Div ( takes up as much width as possible )
 
-    - The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.
+    - The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with Javascript.
     - The <div> tag is easily styled by using the class or id attribute.
     - The <div> tag is a block-level element, which means it will take up the full width available.
 

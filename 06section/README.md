@@ -257,13 +257,13 @@ example of a media query with multiple conditions:
 ## Parallax Scrolling Effects
 
 - Parallax scrolling is a visual effect where the background content moves at a different speed than the foreground content.
-- You can create parallax scrolling effects using CSS and JavaScript.
+- You can create parallax scrolling effects using CSS and Javascript.
 - To create a parallax effect, you can use the `background-attachment` property in CSS.
 
 ### Parallax Scrolling Guidelines
 
 - Use CSS to set the background image and position for the parallax effect.
-- Use JavaScript to handle the scrolling behavior and speed of the parallax effect.
+- Use Javascript to handle the scrolling behavior and speed of the parallax effect.
 - Use media queries to create a responsive parallax effect that adapts to different screen sizes.
 
 example of a parallax effect:

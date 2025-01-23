@@ -14,7 +14,7 @@
       -
     css
       -
-    javascript
+    Javascript
       -
     node.js
       -

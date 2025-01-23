@@ -5,13 +5,13 @@
 ### Bootstrap
 
 - Bootstrap is a popular front-end framework for building responsive websites.
-- It provides a set of CSS and JavaScript components that make it easy to create responsive layouts and interactive user interfaces.
+- It provides a set of CSS and Javascript components that make it easy to create responsive layouts and interactive user interfaces.
 - Bootstrap is based on the 12-column grid system, which allows you to create flexible and responsive designs.
 - Bootstrap also includes pre-designed components such as buttons, forms, navigation bars, and modals that you can use in your projects.
 
 ### Bootstrap Installation
 
-- To use Bootstrap in your project, you can include the Bootstrap CSS and JavaScript files in your HTML document.
+- To use Bootstrap in your project, you can include the Bootstrap CSS and Javascript files in your HTML document.
 - You can download Bootstrap from the official website or link to the Bootstrap CDN (Content Delivery Network) in your HTML document.
 - To link to the Bootstrap CDN, add the following code to the `<head>` section of your HTML document:
 
@@ -74,7 +74,7 @@
 
 - Bootstrap provides a variety of components that you can use in your projects.
 - Some of the common components include buttons, forms, navigation bars, modals, and carousels.
-- You can customize the appearance and behavior of these components using Bootstrap classes and JavaScript plugins.
+- You can customize the appearance and behavior of these components using Bootstrap classes and Javascript plugins.
 - Bootstrap components are designed to be responsive and work well on different screen sizes.
 
 ### Responsive Design

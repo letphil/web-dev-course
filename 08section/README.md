@@ -1,27 +1,27 @@
-# Section 8: JavaScript Basic Concepts
+# Section 8: Javascript Basic Concepts
 
-## Overview of JavaScript
+## Overview of Javascript
 
-### JavaScript
+### Javascript
 
-- JavaScript is a popular programming language used for building interactive websites.
+- Javascript is a popular programming language used for building interactive websites.
 - It is a client-side scripting language that runs in the browser and allows you to add dynamic behavior to web pages.
-- JavaScript can be used to create interactive forms, validate user input, and update the content of a web page without reloading it.
-- JavaScript is also used to create animations, games, and other interactive elements on the web.
+- Javascript can be used to create interactive forms, validate user input, and update the content of a web page without reloading it.
+- Javascript is also used to create animations, games, and other interactive elements on the web.
 
-### JavaScript Basics
+### Javascript Basics
 
-- JavaScript is a high-level, interpreted programming language.
+- Javascript is a high-level, interpreted programming language.
 - It is loosely typed, which means you don't have to declare the data type of a variable when you create it.
-- JavaScript uses the `var`, `let`, and `const` keywords to declare variables.
-- JavaScript is case-sensitive, so `myVariable` and `MyVariable` are considered different variables.
-- JavaScript statements are terminated by a semicolon (`;`).
+- Javascript uses the `var`, `let`, and `const` keywords to declare variables.
+- Javascript is case-sensitive, so `myVariable` and `MyVariable` are considered different variables.
+- Javascript statements are terminated by a semicolon (`;`).
 
-### JavaScript in HTML
+### Javascript in HTML
 
-- You can include JavaScript code in an HTML document using the `<script>` tag.
+- You can include Javascript code in an HTML document using the `<script>` tag.
 - The `<script>` tag can be placed in the `<head>` or `<body>` section of an HTML document.
-- You can write JavaScript code directly in the `<script>` tag or link to an external JavaScript file using the `src` attribute.
+- You can write Javascript code directly in the `<script>` tag or link to an external Javascript file using the `src` attribute.
 
 ```html
 <!DOCTYPE html>
@@ -29,9 +29,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>JavaScript demo</title>
+    <title>Javascript demo</title>
     <script>
-      // JavaScript code goes here
+      // Javascript code goes here
       console.log("Hello, world!");
     </script>
   </head>
@@ -42,12 +42,12 @@
 </html>
 ```
 
-### JavaScript Comments
+### Javascript Comments
 
-- You can add comments to your JavaScript code using `//` for single-line comments and `/* */` for multi-line comments.
-- Comments are ignored by the JavaScript interpreter and are used to document your code.
+- You can add comments to your Javascript code using `//` for single-line comments and `/* */` for multi-line comments.
+- Comments are ignored by the Javascript interpreter and are used to document your code.
 
-```javascript
+```Javascript
 // This is a single-line comment
 
 /*
@@ -60,33 +60,33 @@ comment
 ### Console Logging
 
 - You can use the `console.log()` function to output messages to the browser console.
-- The browser console is a developer tool that allows you to view and debug JavaScript code.
+- The browser console is a developer tool that allows you to view and debug Javascript code.
 
-```javascript
+```Javascript
 console.log("Hello, world!");
 ```
 
 ### Declaring Variables
 
-- You can declare variables in JavaScript using the `var`, `let`, and `const` keywords.
+- You can declare variables in Javascript using the `var`, `let`, and `const` keywords.
 - The `var` keyword is used to declare variables with function scope.
 - The `let` keyword is used to declare variables with block scope.
 - The `const` keyword is used to declare constants that cannot be reassigned.
 
-```javascript
+```Javascript
 var x = 10;
 let y = 20;
 const PI = 3.14;
 ```
 
-- [JavaScript Basics](./exercises/declaring-variables.exercises.js)
+- [Javascript Basics](./exercises/declaring-variables.exercises.js)
 
 ### Data Types
 
-- JavaScript supports several data types, including numbers, strings, booleans, arrays, objects, and functions.
+- Javascript supports several data types, including numbers, strings, booleans, arrays, objects, and functions.
 - You can use the `typeof` operator to determine the data type of a variable.
 
-```javascript
+```Javascript
 let num = 10; // number
 let str = "Hello"; // string
 let bool = true; // boolean
@@ -106,10 +106,10 @@ console.log(typeof func); // function
 
 ### Operators
 
-- JavaScript supports various operators, such as arithmetic, assignment, comparison, logical, and bitwise operators.
+- Javascript supports various operators, such as arithmetic, assignment, comparison, logical, and bitwise operators.
 - You can use operators to perform calculations, assign values, compare values, and combine conditions.
 
-```javascript
+```Javascript
 let x = 10;
 let y = 5;
 
@@ -137,9 +137,9 @@ console.log(!(x > 5)); // logical NOT
 
 ### Math Object
 
-- JavaScript provides the `Math` object, which contains properties and methods for mathematical operations.
+- Javascript provides the `Math` object, which contains properties and methods for mathematical operations.
 
-```javascript
+```Javascript
 console.log(Math.PI); // 3.141592653589793
 console.log(Math.abs(-10)); // 10
 console.log(Math.ceil(4.3)); // 5
@@ -158,10 +158,10 @@ console.log(randomNum);
 
 ### Conditional Statements
 
-- JavaScript supports conditional statements, such as `if`, `else if`, and `else`, to execute different code blocks based on different conditions.
+- Javascript supports conditional statements, such as `if`, `else if`, and `else`, to execute different code blocks based on different conditions.
 - You can use conditional statements to make decisions in your code.
 
-```javascript
+```Javascript
 let age = 18;
 
 if (age < 18) {
@@ -177,10 +177,10 @@ if (age < 18) {
 
 ### Loops
 
-- JavaScript supports loops, such as `for`, `while`, and `do...while`, to execute code repeatedly.
+- Javascript supports loops, such as `for`, `while`, and `do...while`, to execute code repeatedly.
 - You can use loops to iterate over arrays, perform calculations, and execute code based on a condition.
 
-```javascript
+```Javascript
 for (let i = 0; i < 5; i++) {
   console.log(i);
 }
@@ -202,9 +202,9 @@ do {
 
 ### Functions
 
-- JavaScript functions are blocks of code that can be called
+- Javascript functions are blocks of code that can be called
 
-```javascript
+```Javascript
 function greet(name) {
   console.log("Hello, " + name + "!");
 }
@@ -228,10 +228,10 @@ console.log(sum); // 8
 
 ### Arrays and Objects methods
 
-- JavaScript provides built-in methods for working with arrays and objects.
+- Javascript provides built-in methods for working with arrays and objects.
 - You can use these methods to add, remove, and modify elements in arrays, as well as access and update properties in objects.
 
-```javascript
+```Javascript
 let numbers = [1, 2, 3, 4, 5];
 
 numbers.push(6); // add an element to the end of the array
@@ -264,9 +264,9 @@ console.log(person); // { name: 'Jane', city: 'New York' }
 
 - The Document Object Model (DOM) is a programming interface for web documents.
 - It represents the structure of an HTML document as a tree of nodes.
-- You can use JavaScript to manipulate the DOM, such as adding, removing, and updating elements on a web page.
+- You can use Javascript to manipulate the DOM, such as adding, removing, and updating elements on a web page.
 
-```javascript
+```Javascript
 // Get an element by ID
 let heading = document.getElementById("heading");
 
@@ -308,9 +308,9 @@ button.classList.remove("btn-secondary");
 
 ### HTML Events
 
-- JavaScript allows you to respond to user actions, such as clicks, keypresses, and mouse movements, using event handlers.
+- Javascript allows you to respond to user actions, such as clicks, keypresses, and mouse movements, using event handlers.
 
-```javascript
+```Javascript
 // Add an event listener to an element
 button.addEventListener("click", function () {
   console.log("Button clicked!");
@@ -330,12 +330,12 @@ button.dispatchEvent(customEvent);
 
 - [Events](./exercises/html-events.exercises.js)
 
-### Asynchronous JavaScript
+### Asynchronous Javascript
 
-- JavaScript is a single-threaded language, which means it can only execute one task at a time.
-- Asynchronous JavaScript allows you to perform tasks in the background without blocking the main thread.
+- Javascript is a single-threaded language, which means it can only execute one task at a time.
+- Asynchronous Javascript allows you to perform tasks in the background without blocking the main thread.
 
-```javascript
+```Javascript
 // setTimeout
 console.log("Start");
 setTimeout(function () {
@@ -400,4 +400,4 @@ fetch("https://api.example.com/data")
   });
 ```
 
-- [Asynchronous JavaScript](./exercises/asynchronous-javascript.exercises.js)
+- [Asynchronous Javascript](./exercises/asynchronous-Javascript.exercises.js)
