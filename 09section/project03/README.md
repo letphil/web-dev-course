@@ -4,7 +4,7 @@ In this project, we will create a simple casino game using JavaScript. The game 
 
 ### Features
 
-- Generate three random numbers between ["🍒", "🍋", "🍊"]
+- Generate three random numbers between ["🍒", "🍋", "🍊", "7️⃣", "🎰", "💰", "🟡"]
 - Check if all three numbers are the same
 - Display a message if the player wins or loses
 
@@ -19,4 +19,4 @@ In this project, we will create a simple casino game using JavaScript. The game 
 
 - Use the `Math.random()` function to generate random numbers.
 - Use the `if...else` statement to check if all three numbers are the same.
-- Use the `document.getElementById()` function to display the message to the player.
+- Use the `document.getElementById()` function to display the message to the player. -->

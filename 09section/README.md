@@ -4,7 +4,7 @@
 
 - [Project 1: Random Password Generator](./project01/README.md)
 - [Project 2: Digital Clock](./project02/README.md)
-- [Project 3: Simple Casino Game](./project03/README.md)
+- [Project 3: Simple Slot Machine Game](./project03/README.md)
 - [Project 4: Drag and Drop Game](./project04/README.md)
 - [Project 5: Quiz App](./project05/README.md)
 - [Project 6: Weather App](./project06/README.md)

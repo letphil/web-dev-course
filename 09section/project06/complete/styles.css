@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+#search {
+  margin: 20px 0;
+}
+
+#location {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#search-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#search-btn:hover {
+  background-color: #0056b3;
+}
+
+#weather {
+  margin: 20px 0;
+}
+
+#temperature,
+#humidity,
+#wind-speed {
+  margin: 10px 0;
+}
+
+#error {
+  color: red;
+}

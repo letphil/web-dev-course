@@ -1,0 +1,58 @@
+<!-- ## Project 5: Quiz App
+
+In this project, we will create a quiz app using JavaScript. The app will display a list of questions with multiple-choice answers. The player can select an answer for each question, and the app will display the final score at the end.
+
+### Features
+
+- Display a list of questions with multiple-choice answers.
+- Allow the player to select an answer for each question.
+- Display the final score at the end of the quiz.
+
+### Steps to complete the project
+
+- Create an `index.html` file.
+- Create a `styles.css` file for basic styling.
+- Create a `scripts.js` file to write JavaScript logic.
+- Link `styles.css` and `scripts.js` to the `index.html` file.
+
+### Hints
+
+- Use an array of objects to store the questions and answers.
+- Use the `document.getElementById()` function to get the elements by their ID.
+- Use the `addEventListener()` function to handle click events on the answers.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <h1>Quiz App</h1>
+    <section id="quiz">
+      <!-- Will be dynamically populated -->
+      <!-- Example Element: -->
+      <!-- <div class="question">
+      <h2>Question 1</h2>
+      <p>What is the capital of France?</p>
+      <ul>
+        <li>Paris</li>
+        <li>London</li>
+        <li>Berlin</li>
+        <li>Madrid</li>
+      </ul>
+    </div> -->
+    </section>
+    <button id="submit">Submit</button>
+    <button id="reset">Reset</button>
+    <section id="results">
+      <!-- Will be dynamically populated -->
+      <!-- Example Element: -->
+      <!-- <p>Score: <span id="score">0</span></p> -->
+    </section>
+    <script src="scripts.js"></script>
+  </body>
+</html>
