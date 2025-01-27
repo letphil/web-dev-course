@@ -5,6 +5,7 @@ const slot2Element = document.getElementById("slot2");
 const slot3Element = document.getElementById("slot3");
 
 const slotOptions = ["🍒", "🍋", "🍊", "7️⃣", "🎰", "💰", "🟡"];
+
 const slots = [slot1Element, slot2Element, slot3Element];
 let resultGrid = [[], [], []];
 

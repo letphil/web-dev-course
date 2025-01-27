@@ -1,7 +1,7 @@
 // Add your API key here
 // where to retrieve api key
 // https://home.openweathermap.org/users/sign_in
-// const API_KEY = "b1b15e88fa797225412429c1c50c122a1";
+const API_KEY = "b1b15e88fa797225412429c1c50c122a1";
 
 // Get the elements by their ID
 const locationInput = document.getElementById("location");

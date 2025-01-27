@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+#timer {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  max-width: 300px;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#time-left {
+  margin-top: 20px;
+}
+
+#display {
+  font-size: 24px;
+  font-weight: bold;
+}

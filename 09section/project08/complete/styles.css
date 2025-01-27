@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+#ui {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1.5rem;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+#screen {
+  padding: 10px;
+  font-size: 2rem;
+  background-color: #f0f0f0;
+  border: none;
+  text-align: right;
+  grid-column: span 4;
+  height: 50px;
+}
