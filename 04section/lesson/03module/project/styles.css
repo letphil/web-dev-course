@@ -1,0 +1,37 @@
+article {
+  border: 1px solid black;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+article:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+  text-align: center;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.highlight:hover {
+  font-weight: bold;
+}
+
+.quote::before {
+  content: '"';
+  font-size: 20px;
+  color: gray;
+}
+
+.quote::after {
+  content: '"';
+  font-size: 20px;
+  color: gray;
+}
