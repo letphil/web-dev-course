@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Changing Font size</title>
+    <style>
+      /* em - Relative to parent element 1em = 100% */
+      /* rem -> Relative to the root ( html { font-size: 16px }) 1rem = 16px */
+      /* vw, vh -> relative to viewport width and height */
+      .small {
+        font-size: 12px;
+      }
+
+      .medium {
+        font-size: 18px;
+      }
+
+      .large {
+        font-size: 24px;
+      }
+
+      .relative-size {
+        font-size: 1.5em;
+      }
+
+      .viewport-size {
+        font-size: 5vw;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <p class="small">this is small text</p>
+    <p class="medium">this is medium text</p>
+    <p class="large">this is large text</p> -->
+    <p class="relative-size">this is relative size</p>
+    <p class="viewport-size">viewport size</p>
+  </body>
+</html>
