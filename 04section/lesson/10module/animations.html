@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animations</title>
+    <style>
+      /* .box {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      } */
+
+      /* @keyframes moveBox {
+        0% {
+          transform: translateX(0);
+        }
+        50% {
+          transform: translateX(200px);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      } */
+      /* 
+      .bounce {
+        animation: bounceEffect 2s infinite alternate;
+      }
+
+      @keyframes bounceEffect {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(-50px);
+        }
+      }
+
+      .smooth {
+        transition: transform 3s ease-in-out;
+      } */
+
+      .circle {
+        background-image: url("../07module/background.png");
+        background-size: cover;
+        height: 44px;
+        width: 44px;
+        border-radius: 22px;
+        background-color: black;
+        /* border: 1px solid black; */
+        animation: scaleUp 2s infinite alternate, fadeOut 2s infinite alternate;
+      }
+
+      @keyframes scaleUp {
+        0% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1.5);
+        }
+      }
+
+      @keyframes fadeOut {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0.5;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="box bounce smooth"></div> -->
+    <div class="circle"></div>
+  </body>
+</html>
