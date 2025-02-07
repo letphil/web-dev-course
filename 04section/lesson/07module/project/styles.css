@@ -1,0 +1,28 @@
+/* 
+https://images.pexels.com/photos/30353894/pexels-photo-30353894/free-photo-of-aerial-view-of-urban-residential-complex.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: url("https://images.pexels.com/photos/30353894/pexels-photo-30353894/free-photo-of-aerial-view-of-urban-residential-complex.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
