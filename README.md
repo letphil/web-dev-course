@@ -12,8 +12,4 @@
 
 ### Project Coming soon Website[05section](./05section/README.md)
 
-### Advanced CSS (Classes, IDs, Parallax)[06section](./06section/README.md)
-
-### Bootstrap and Responsive Design[07section](./07section/README.md)
-
-### Javascript Basics Concepts[08section](./08section/README.md)
+### Javascript Basics Concepts[06section](./06section/README.md)
