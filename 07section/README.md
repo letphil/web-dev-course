@@ -12,6 +12,7 @@
 - [Project 8: Calculator](./project08/README.md)
 - [Project 9: Countdown Timer](./project09/README.md)
 - [Project 10: Memory Game](./project10/README.md)
+- [Project 11: Snake](./project11/README.md)
 <!-- - [Project 11: Drawing App](./project11/README.md)
 - [Project 12: Chat App](./project12/README.md)
 - [Project 13: Music Player](./project13/README.md)
