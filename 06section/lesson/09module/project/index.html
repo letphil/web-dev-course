@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulated API Call</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+      }
+
+      #loading {
+        font-size: 20px;
+        color: blue;
+      }
+
+      #data {
+        font-size: 18px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Simulated API call with loading</h1>
+    <button onclick="fetchData()">Fetch Data</button>
+    <p id="loading" style="display: none">Loading</p>
+    <p id="data"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
